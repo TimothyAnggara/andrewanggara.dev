@@ -1,12 +1,10 @@
 {
   "name": "personal_website_2",
   "private": true,
-  "homepage": "https://timothyanggara.github.io/plswork",
+  "homepage": "https://TimothyAnggara.github.io/plswork",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",

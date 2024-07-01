@@ -7,11 +7,7 @@ type ExperienceCardProp = {
     align: boolean;
 };
 
-function ExperienceCard({logo_path, role, start, end, responsibilities, align} : ExperienceCardProp){
-    var left = "";
-    if(!align){
-        left = ""
-    }
+function ExperienceCard({logo_path, role, start, end, responsibilities} : ExperienceCardProp){
     return(
         <div className="rounded-xl bg-gray shadow-md dark:bg-gray-100 dark:shadow-2xl mx-auto flex w-full max-w-4xl flex-col justify-between gap-4 p-8 md:flex-row md:gap-8">
             {/* Place for image */}

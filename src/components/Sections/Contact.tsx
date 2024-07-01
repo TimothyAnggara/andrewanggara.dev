@@ -1,6 +1,6 @@
-import github from "/icons/github.svg"
-import instagram from "/icons/instagram.svg"
-import linkedin from "/icons/linkedin.svg"
+import github from "../../assets/icons/github.svg"
+import instagram from "../../assets/icons/instagram.svg"
+import linkedin from "../../assets/icons/linkedin.svg"
 import { Mail, Copy, Phone } from "lucide-react"
 
 function Contact(){

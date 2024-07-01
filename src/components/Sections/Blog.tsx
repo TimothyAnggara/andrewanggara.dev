@@ -27,7 +27,7 @@ function Blog(){
                     <div className="flex flex-col gap-2">
                         {tempData.map((data, index) =>(
                             <Link to={data.link}>
-                                <RecentBlog title={data.title} date={data.date}/>
+                                <RecentBlog key={index} title={data.title} date={data.date}/>
                             </Link>
                         ))}
                     </div>

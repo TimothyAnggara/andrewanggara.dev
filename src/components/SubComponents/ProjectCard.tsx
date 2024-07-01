@@ -9,7 +9,7 @@ type ProjectCardProp = {
     align: boolean
 }
 
-function ProjectCard({project, description, picture_path, skills, link, align}: ProjectCardProp){
+function ProjectCard({project, description, picture_path, skills, align}: ProjectCardProp){
     let left;
     if(!align){
         left = "order-last"

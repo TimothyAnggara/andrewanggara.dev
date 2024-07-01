@@ -24,15 +24,25 @@ function Header(){
         };
     }, []);
 
-    const handleSmoothScroll = (event) => {
+    const handleSmoothScroll = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
         event.preventDefault();
-        const targetId = event.currentTarget.getAttribute("href");
-        const targetElement = document.querySelector(targetId);
-        if (targetElement) {
-            window.scrollTo({
-                top: targetElement.offsetTop,
-                behavior: "smooth"
-            });
+    
+        // Ensure event.currentTarget is an HTMLAnchorElement
+        const target = event.currentTarget as HTMLAnchorElement;
+    
+        // Get the href attribute
+        const targetId = target.getAttribute("href");
+    
+        if (targetId) {
+            // Find the target element by id
+            const targetElement = document.querySelector(targetId) as HTMLElement;
+    
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop,
+                    behavior: "smooth"
+                });
+            }
         }
     };
 

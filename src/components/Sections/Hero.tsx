@@ -1,7 +1,7 @@
-import headshot from "/temp.jpg"
-import github from "/icons/github.svg"
-import instagram from "/icons/instagram.svg"
-import linkedin from "/icons/linkedin.svg"
+import headshot from "../../assets/temp.jpg"
+import github from "../../assets/icons/github.svg"
+import instagram from "../../assets/icons/instagram.svg"
+import linkedin from "../../assets/icons/linkedin.svg"
 
 function Hero(){
     const handleIconClick = (website:string) => {

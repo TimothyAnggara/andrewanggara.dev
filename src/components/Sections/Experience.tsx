@@ -3,7 +3,7 @@ import ExperienceCard from "../SubComponents/ExperienceCard"
 function Experience(){
     const experiences = [
         { 
-            logo_path: 'src/assets/company_logos/intersystem.svg', 
+            logo_path: '/assets/company_logos/intersystem.svg', 
             role: 'Software Engineer Intern', 
             start: 'Dec 2023', 
             end: 'Feb 2024',
@@ -15,7 +15,7 @@ function Experience(){
             align: true
         },
         {
-            logo_path: 'src/assets/company_logos/kfc.png', 
+            logo_path: '/assets/company_logos/kfc.png', 
             role: 'Back of House', 
             start: 'Sept 2022', 
             end: 'March 2023',

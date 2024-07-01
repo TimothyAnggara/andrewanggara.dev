@@ -1,9 +1,11 @@
 import ExperienceCard from "../SubComponents/ExperienceCard"
+import intersystems from "../../assets/company_logos/intersystem.svg"
+import kfc from "../../assets/company_logos/kfc.png"
 
 function Experience(){
     const experiences = [
         { 
-            logo_path: '/assets/company_logos/intersystem.svg', 
+            logo_path: intersystems, 
             role: 'Software Engineer Intern', 
             start: 'Dec 2023', 
             end: 'Feb 2024',
@@ -15,7 +17,7 @@ function Experience(){
             align: true
         },
         {
-            logo_path: '/assets/company_logos/kfc.png', 
+            logo_path: kfc, 
             role: 'Back of House', 
             start: 'Sept 2022', 
             end: 'March 2023',

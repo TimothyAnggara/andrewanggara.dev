@@ -9,7 +9,7 @@ type ProjectCardProp = {
     align: boolean
 }
 
-function ProjectCard({project, description, picture_path, skills, align}: ProjectCardProp){
+function ProjectCard({project, description, picture_path, link, skills, align}: ProjectCardProp){
     let left;
     if(!align){
         left = "order-last"
@@ -30,7 +30,7 @@ function ProjectCard({project, description, picture_path, skills, align}: Projec
                         <SkillBox key={index} skill={skill}/>
                     ))}
                 </div>
-                <a className="self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500">
+                <a className="self-start rounded-lg p-1.5 hover:bg-gray-200 [&_svg]:stroke-gray-500 cursor-pointer" href={link}>
                     <ExternalLink />
                 </a>
             </div>

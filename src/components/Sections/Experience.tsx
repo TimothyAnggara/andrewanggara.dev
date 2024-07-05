@@ -16,18 +16,6 @@ function Experience(){
             ],
             align: true
         },
-        {
-            logo_path: kfc, 
-            role: 'Back of House', 
-            start: 'Sept 2022', 
-            end: 'March 2023',
-            responsibilities: [
-                "Collaborated effectively with team members to ensure timely and accurate order fulfillment",
-                "Trained new team members, enhancing communication and instructional skills",
-                "Maintained high standards of quality and consistency through attention to detail and adherence to guidelines"
-            ],
-            align: false
-        }
     ]
 
     return(

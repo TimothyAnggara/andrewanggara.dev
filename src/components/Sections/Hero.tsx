@@ -1,4 +1,5 @@
-import headshot from "../../assets/temp.jpg"
+// import headshot from "../../assets/temp.jpg"
+import headshot from "../../assets/image4.jpg";
 import github from "../../assets/icons/github.svg"
 import instagram from "../../assets/icons/instagram.svg"
 import linkedin from "../../assets/icons/linkedin.svg"
@@ -13,9 +14,9 @@ function Hero(){
                 <div className="flex flex-col gap-12 md:flex-row">
                     {/* Image */}
                     <div className="flex items-center justify-center md:order-last md:flex-grow md:justify-end">
-                        <div className="relative h-[300px] w-[280px] md:h-[360px] md:w-[320px]">
-                            <img className="absolute z-10 h-[280px] w-[240px] border-8 border-gray max-md:left-5 md:left-0 md:top-0 md:h-[320px] md:w-[280px]" src={headshot}/>
-                            <div className="absolute h-[280px] w-[280px] border-8 border-transparent bg-gray-200 max-md:top-5 md:bottom-0 md:right-0 md:h-[320px] md:w-[280px]"/>
+                        <div className="relative h-[420px] w-[360px] md:h-[480px] md:w-[420px]">
+                            <img className="absolute z-10 h-[360px] w-[360px] border-8 border-gray ..." src={headshot}/>
+                            <div className="absolute h-[355px] w-[355px] border-8 border-transparent bg-gray-200 left-4 top-4 ..." />
                         </div>
                     </div>
                     {/* Content */}

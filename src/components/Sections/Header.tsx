@@ -3,7 +3,7 @@ function Header(){
     const handleDownloadCV = () => {
         const link = document.createElement('a');
         link.href = 'resume.pdf';  // Update this path if your resume file is in a different location
-        link.download = 'Andrew_Anggara_Resume.pdf';  // Set the filename for the downloaded file
+        link.download = 'Andrew Anggara - Resume.pdf';  // Set the filename for the downloaded file
         link.click();
     };
 

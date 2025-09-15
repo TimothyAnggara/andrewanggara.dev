@@ -1,21 +1,34 @@
 import ExperienceCard from "../SubComponents/ExperienceCard"
 import intersystems from "../../assets/company_logos/intersystem.svg"
+import usyd from "../../assets/company_logos/Usyd.svg"
 import kfc from "../../assets/company_logos/kfc.png"
 
 function Experience(){
     const experiences = [
+        { 
+            logo_path: usyd, 
+            role: 'Research Intern', 
+            start: 'Jan 2025', 
+            end: 'Mar 2025',
+            responsibilities: [
+                "Automated NDVI feature extraction by replacing manual QGIS workflows with a Python-based pipeline that ingests and preprocesses satellite imagery for scalable downstream analysis.",
+                "Optimized satellite data collection using multi-threading with the Sentinel-2 API and Google Earth Engine, reducing data processing time by 50%",
+                "Analyzed and visualized NDVI time-series across spatial regions to uncover trends in vegetation health, contributing to data-driven insights on land productivity",
+            ],
+            align: true
+        },
         { 
             logo_path: intersystems, 
             role: 'Software Engineer Intern', 
             start: 'Dec 2023', 
             end: 'Feb 2024',
             responsibilities: [
-                "Used Agile Methodologies and led the development of AI-driven features that led to increase in data processing efficiency with LLM and prompt engineering",
-                "Automated medical documentation processing with NLP and RAG workflows reducing manual entry errors and saving clinicians time",
-                "Engineered a full-stack application using React and Flask with a user-friendly interface for clinician",
+                "Developed a data pipeline to transform unstructured clinical inputs (doctor’s notes, PDFs, voice memos) into structured FHIR messages, streamlining healthcare documentation workflows",
+                "Managed and queried vector databases to support LLM-driven semantic search, mapping medical terms to SNOMED codes for structured interoperability",
+                "Engineered a full-stack prototype using Flask and React, integrating a backend vector similarity engine to support clinical terminology retrieval",
             ],
             align: true
-        },
+        }, 
     ]
 
     return(

@@ -50,7 +50,7 @@ function Header(){
         <header className={`sticky top-0 z-30 w-full border-b border-transparent ${isScrolled ? 'max-md:border-gray-100 bg-gray/50 backdrop-blur-xl md:border-gray-300' : `bg-gray max-md:border-gray-100`}`}>
             <div className="mx-auto flex w-full max-w-7xl items-center justify-between p-4 md:px-12 ">
                 <a target="_self" href="/">
-                    <span className="font-inter text-gray-900 font-bold text-3xl">{"<AA />"}</span>
+                    <span className="font-inter text-gray-900 font-bold text-3xl whitespace-nowrap">{"<AA />"}</span>
                 </a>
                 <div className="items-center gap-6 flex">
                     <ul className="flex list-none items-center gap-6">
